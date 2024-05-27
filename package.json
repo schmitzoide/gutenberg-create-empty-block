@@ -1,0 +1,14 @@
+{
+  "name": "@schmitzoide/create-empty-block",
+  "version": "1.0.0",
+  "description": "Scaffold a Gutenberg block inside an existing plugin.",
+  "bin": {
+    "create-empty-block": "./index.js"
+  },
+  "author": "Marcel Schmitz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schmitzoide/create-empty-block.git"
+  },
+  "license": "MIT"
+}

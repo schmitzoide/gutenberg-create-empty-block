@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "my-plugin/__BLOCK_NAME__",
+  "title": "__BLOCK_NAME__",
+  "description": "This block is responsible for creating the boxed or full with section.",
+  "icon": "feedback",
+  "category": "text",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
